@@ -14,8 +14,8 @@ vamos a ver
 # como descaragar
 
 >version: '3'
-services:
-  mysql:
+>services:
+  >mysql:
     image: mysql
     environment:
       MYSQL_ROOT_PASSWORD : ${DB_PASSWORD}
