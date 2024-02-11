@@ -12,7 +12,7 @@ vamos a ver
 
 
 # como descaragar
-
+```
 version: '3'
 services:
   mysql:
@@ -27,3 +27,7 @@ services:
       - ${DB_PORT_MYSQL}:3306
 volumes:
   mysql_node:
+```
+
+
+
