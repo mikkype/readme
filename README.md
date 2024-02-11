@@ -12,8 +12,8 @@ vamos a ver
 
 
 # como descaragar
-``` bash
-version: '3'
+
+>version: '3'
 services:
   mysql:
     image: mysql
@@ -27,7 +27,7 @@ services:
       - ${DB_PORT_MYSQL}:3306
 volumes:
   mysql_node:
-```
+
 
 
 
