@@ -12,7 +12,7 @@ vamos a ver
 
 
 # como descaragar
-```
+``` bash
 version: '3'
 services:
   mysql:
