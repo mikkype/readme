@@ -12,3 +12,18 @@ vamos a ver
 
 
 # como descaragar
+
+version: '3'
+services:
+  mysql:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD : ${DB_PASSWORD}
+      MYSQL_USER : ${DB_USER}
+      MYSQL_DATABASE : ${DB_DATABASE}
+    volumes:
+      - mysql_node:/var/lib/mysql
+    ports:
+      - ${DB_PORT_MYSQL}:3306
+volumes:
+  mysql_node:
